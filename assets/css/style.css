@@ -4,11 +4,11 @@ h1{
     color: white;
     background: #4aaaa5;
     width: 300px;
-    margin-left: 10%;
+    margin-left: 50px;
     float: left;
-    height: 50px;
+    height: 80px;
     padding-top: 10px;
-    padding-left: 35px;
+    padding-left: 35px;   
        
 }
 
@@ -20,7 +20,7 @@ h1{
 header {
     background: white;
     border-bottom: 1px solid grey;
-    
+    height: 80px;  
     
 }
 
@@ -53,14 +53,10 @@ nav li {
     
 }
 
-head {
-    border-color: #cccccc;
-}
-
 body {
     color: black;
     width: 960px;
-    
+    background-image: url(../images/dust_scratches.png); 
 }
 
 .homepageLink {
@@ -69,31 +65,37 @@ body {
 
 h2 {
     color:#4aaaa5;
-    margin-left: 10%;
-    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+      
     
 }
 
 p {
     color: #777777;
-    margin-left: 10%;
-    margin-bottom: 300px;  
+    margin-left: 20px;
+    margin-bottom: 300px; 
+    margin-right: 20px; 
 }
 
 .footer {
     text-align: center;
-    
+    border-top: 5px solid #4aaaa5;
     background: grey;
     font-size: 25px;
-    height: 45px;
+    height: 60px;
     border: 55x #4aaaa5;
-    padding: 10x; 
+    
     
 }
 
 .body {
-    
+    background: white;
     border: 1px solid #ccc;
+    margin: 25px 90px 25px 145px;
+    
 }
 
 /* Portfolio Page*/
@@ -109,7 +111,7 @@ section {
     
     box-sizing: border-box; 
     margin-top: 50px; 
-    margin-bottom: 300px;     
+    margin-bottom: 10px;     
 }
 
 .button {
@@ -118,5 +120,13 @@ section {
     height: 40px;
     width: 80px;
     
+}
+
+input {
+    width: 100%;
+}
+
+.message {
+    height: 250px;
 }
 
