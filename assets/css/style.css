@@ -1,0 +1,51 @@
+h1{
+    font-weight: bold;
+    color: black;
+    background: grey;
+       
+}
+
+body {
+    color: black;
+    width: 960px;
+}
+
+.topnav {
+    float: right;
+    font-size: 100x;
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+}
+
+h3 {
+    color:#4aaaa5;
+    
+}
+
+p {
+    color: green;
+}
+
+.footer{
+    text-align: center;
+    background: grey;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+form {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+   
+   
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 50px; /* Add a top margin */
+    margin-bottom: 300px; /* Bottom margin */
+    
+}
+
