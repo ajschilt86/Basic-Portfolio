@@ -1,10 +1,50 @@
 h1{
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
     color: white;
     background: #4aaaa5;
-    width: 250px;
+    width: 300px;
     margin-left: 10%;
+    float: left;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 35px;
        
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid grey;
+    
+    
+}
+
+header::after {     /* found this on youtube*/
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .header {
@@ -23,21 +63,14 @@ body {
     
 }
 
-.topnav {
-    float: right;
-    font-size: 100x;
-    padding: 10px;
-    margin-right: 10%;
-          
-}
-
 .homepageLink {
     display: inline;
 }
 
 h2 {
     color:#4aaaa5;
-    margin-left: 10%;    
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
     
 }
 
