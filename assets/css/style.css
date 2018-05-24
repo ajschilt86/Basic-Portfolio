@@ -17,7 +17,7 @@ body {
     margin: 10px;
 }
 
-li {
+.homepageLink {
     display: inline;
 }
 
@@ -35,17 +35,22 @@ p {
     background: grey;
     font-size: 25px;
     padding: 20px;
-    
+       
 }
 
-form {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-   
-   
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 50px; /* Add a top margin */
-    margin-bottom: 300px; /* Bottom margin */
-    
+/* Portfolio Page*/
+
+
+
+
+/* Contact Page*/
+
+section {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 50px; 
+    margin-bottom: 300px;     
 }
 
