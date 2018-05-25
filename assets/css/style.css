@@ -3,17 +3,35 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;  
     color: white;
     background: #4aaaa5;
-    width: 300px;
+    width: 260px;
     margin-left: 50px;
     float: left;
     height: 80px;
-    padding-top: 5px;
-    padding-left: 35px;                
+    padding-top: 20px;
+    padding-left: 15px; 
+    height: 60px;
+    margin-top: 0px;                   
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    
+}
+
+.body {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 25px 90px 25px 145px;    
+}
+
+.body:after {
+    content: "";
+    display:block;
+}
+
+.body:after, footer {
+    height:100px;
 }
 
 header {
@@ -41,7 +59,11 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 50px;
-    margin-top: 35px;
+    margin-top: 30px;
+}
+
+nav li:hover {
+    background-color: #4aaaa5    
 }
 
 .header {
@@ -52,11 +74,8 @@ nav li {
 body {
     color: black;
     width: 960px;
-    background-image: url(../images/dust_scratches.png); 
-}
-
-.homepageLink {
-    display: inline;
+    background-image: url(../images/dust_scratches.png);
+    height: 100%; 
 }
 
 h2 {
@@ -75,24 +94,34 @@ p {
     margin-right: 20px; 
 }
 
-.footer {
+footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;
     background: grey;
-    font-size: 25px;
+    font-size: 15px;
     height: 60px;
-    border: 55x #4aaaa5; 
-}
-
-.body {
-    background: white;
-    border: 1px solid #ccc;
-    margin: 25px 90px 25px 145px;    
+    border: 55x #4aaaa5;
+    padding-top: 30px;
 }
 
 /* Portfolio Page*/
 
+.img1 {
+    position: relative;
+    height: 200px;
+    width: 450px
+}
 
+.text1 {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 75px;
+    left: 18px;
+
+}
 
 
 /* Contact Page*/
@@ -110,6 +139,10 @@ section {
     color: white;
     height: 40px;
     width: 80px;    
+}
+
+.button:hover {
+    background-color: grey;    
 }
 
 input {
