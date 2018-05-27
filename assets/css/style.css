@@ -15,14 +15,27 @@ h1{
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
    
 }
 
 .body {
     background: white;
     border: 1px solid #ccc;
-    margin: 25px 90px 25px 145px;    
+    margin: auto;
+    width: 960px;    
+}
+
+.bodyPort {
+    background: white;
+    border: 1px solid #ccc;
+    Height: 850px;
+    width: 960px;
+    margin: auto;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .body:after {
@@ -73,17 +86,19 @@ nav li:hover {
 
 body {
     color: black;
-    width: 960px;
+    
     background-image: url(../images/dust_scratches.png);
     height: 100%; 
 }
+
+
 
 h2 {
     color:#4aaaa5;
     margin-left: 20px;
     margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     border-bottom: 1px solid grey;    
 }
 
@@ -91,7 +106,8 @@ p {
     color: #777777;
     margin-left: 20px;
     margin-bottom: 300px; 
-    margin-right: 20px; 
+    margin-right: 20px;
+    margin-top: 5px; 
 }
 
 footer {
@@ -113,8 +129,15 @@ footer {
 .img1 { 
     position: relative;
     height: 200px;
-    width: 450px;
+    width: 275px;
+    float: left;
+    margin: 0px 40px 57px 0px;
     
+}
+
+.portfolioPics {
+    width: 750px;
+
 }
 
 .img2 {
@@ -167,6 +190,13 @@ section {
 }
 
 input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
 
