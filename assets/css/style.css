@@ -4,7 +4,7 @@ h1{
     color: white;
     background: #4aaaa5;
     width: 260px;
-    margin-left: 87px;
+    margin-left: 18%;
     float: left;
     height: 80px;
     padding-top: 20px;
@@ -65,7 +65,7 @@ header::after {     /* found this on youtube */
 
 nav {
     float: right;
-    margin-right: 87px;
+    margin-right: 18%;
     font-family: Arial, Helvetica, sans-serif;    
 }
 
