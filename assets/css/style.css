@@ -4,7 +4,7 @@ h1{
     color: white;
     background: #4aaaa5;
     width: 260px;
-    margin-left: 50px;
+    margin-left: 87px;
     float: left;
     height: 80px;
     padding-top: 20px;
@@ -21,30 +21,34 @@ h1{
 
 .body {
     background: white;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #ccc;
     margin: auto;
-    width: 960px;    
+    width: 890px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+
 }
 
 .bodyPort {
     background: white;
     border: 1px solid #ccc;
     Height: 850px;
-    width: 960px;
+    width: 890px;
     margin: auto;
     padding-left: 35px;
+    padding-right: 35px;
     padding-top: 20px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.body:after {
-    content: "";
-    display:block;
-}
-
-.body:after, footer {
-    height:100px;
+.mainPic {
+    margin-top: 0px;
 }
 
 header {
@@ -60,7 +64,9 @@ header::after {     /* found this on youtube */
 }
 
 nav {
-    float: right;    
+    float: right;
+    margin-right: 87px;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 nav ul {
@@ -75,6 +81,12 @@ nav li {
     margin-top: 30px;
 }
 
+nav li a {
+    text-decoration: none;
+    color: #777777;
+
+}
+
 nav li:hover {
     background-color: #4aaaa5    
 }
@@ -86,24 +98,25 @@ nav li:hover {
 
 body {
     color: black;
-    
     background-image: url(../images/dust_scratches.png);
     height: 100%; 
 }
-
-
 
 h2 {
     color:#4aaaa5;
     margin-left: 20px;
     margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 25px;
-    border-bottom: 1px solid grey;    
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5px;
+    font-size: 2em;    
 }
 
 p {
     color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     margin-left: 20px;
     margin-bottom: 300px; 
     margin-right: 20px;
@@ -112,12 +125,13 @@ p {
 
 footer {
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    color: white;
+    border-top: 10px solid #4aaaa5;
     background: grey;
-    font-size: 15px;
-    height: 60px;
+    font-size: 10px;
+    height: 55px;
     border: 55x #4aaaa5;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .footer, .push {
@@ -137,21 +151,7 @@ footer {
 
 .portfolioPics {
     width: 750px;
-
-}
-
-.img2 {
-    position: relative;
-    height: 200px;
-    width: 450px;
-    float: right;
-}
-
-.img3 {
-    position: relative;
-    height: 200px;
-    width: 450px;
-    float: right;
+    margin-top: 10px;
 }
 
 .text1 {
@@ -160,26 +160,30 @@ footer {
     color: white;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    top: 75px;
+    top: 140px;
     left: 0px;
-    width: 130px;
+    width: 275px;
+    height: 35px;
+    padding-top: 14px;
     text-align: center;
 
 }
 
-
 /* Contact Page*/
 
 section {
+    color: #777777;
     width: 100%; 
     padding: 12px;      
     box-sizing: border-box; 
-    margin-top: 50px; 
+    margin-top: 10px; 
     margin-bottom: 10px;     
 }
 
 .button {
     background-color:#4aaaa5;
+    border: solid 1px;
+    border-color: #777777;
     color: white;
     height: 40px;
     width: 80px;    
