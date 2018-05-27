@@ -38,7 +38,7 @@ h1{
     background: white;
     border: 1px solid #ccc;
     Height: 850px;
-    width: 890px;
+    width: 47.5%;
     margin: auto;
     padding-left: 35px;
     padding-right: 35px;
@@ -177,7 +177,7 @@ section {
     padding: 12px;      
     box-sizing: border-box; 
     margin-top: 10px; 
-    margin-bottom: 10px;     
+    margin-bottom: 5px;     
 }
 
 .button {
