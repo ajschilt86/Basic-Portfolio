@@ -33,15 +33,12 @@ h1{
     height: 60px; 
     margin-top: 0px; 
     float: left;
-    padding-top: 20px;
-    
-                      
+    padding-top: 20px;    
 }
 
 nav {
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
-      
+    font-family: Arial, Helvetica, sans-serif;      
 }
 
 nav ul {
@@ -68,7 +65,7 @@ nav li:hover {
 .body {
     background: white;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #ccc;
+    border: 1px solid #dddddd;
     margin: auto;
     margin-bottom: 20px;
     width: 960px;
@@ -108,7 +105,7 @@ footer {
 
 .bodyPort {
     background: white;
-    border: 1px solid #ccc;
+    border: 1px solid #dddddd;
     Height: 850px;
     width: 960px;
     margin: auto;
@@ -172,7 +169,7 @@ textarea {
     background-color:#4aaaa5;
     border: solid 1px;
     border-color: #777777;
-    color: white;
+    color: white; 
     height: 40px;
     width: 80px;    
 }
