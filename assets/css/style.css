@@ -23,7 +23,7 @@ header::after {     /* found this on youtube */
     margin: auto;   
 }
 
-h1{
+h1.name {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;  
@@ -73,7 +73,7 @@ nav li:hover {
     padding: 20px 35px 30px 35px;
 }
 
-h2 {
+h2.contact {
     color:#4aaaa5;
     margin-left: 20px;
     margin-right: 20px;
@@ -164,6 +164,17 @@ section {
     box-sizing: border-box; 
     margin-top: 10px; 
     margin-bottom: 5px;     
+}
+label {
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+    float: left;
+}
+
+label:after {
+    content: ": ";
 }
 
 input {
